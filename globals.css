@@ -1,0 +1,135 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Reset CSS */
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  /* Body CSS */
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* Image CSS */
+  img {
+    max-width: 100%;
+  }
+
+  /* Container CSS */
+  .container {
+    @apply max-w-screen-lg mx-auto;
+  }
+
+  /* Header CSS */
+  .header {
+    @apply flex items-center min-h-[80vh] bg-gray-200 py-28;
+  }
+
+  /* Menu CSS */
+  .menu {
+    @apply absolute top-0 left-0 right-0 flex items-center justify-between;
+  }
+
+  .logo {
+    @apply text-lg font-bold text-black uppercase;
+  }
+
+  .menu .navbar ul li {
+    @apply relative float-left;
+  }
+
+  .menu .navbar ul li a {
+    @apply text-lg px-5 py-4 text-black block;
+  }
+
+  #menu {
+    @apply hidden;
+  }
+
+  .menu-icon {
+    @apply w-6;
+  }
+
+  .menu label {
+    @apply cursor-pointer;
+    @apply hidden;
+  }
+
+  /* Submenu CSS */
+  .submenu {
+    @apply relative;
+  }
+
+  .submenu #carrito {
+    @apply hidden;
+  }
+
+  .submenu:hover #carrito {
+    @apply block absolute top-full right-0 bg-gray-700 backdrop-blur-[10px] p-5 min-w-[400px];
+    @apply z-10;
+  }
+
+  /* Table CSS */
+  table {
+    @apply w-full;
+  }
+
+  th,
+  td {
+    @apply text-gray-200;
+  }
+
+  /* Other classes */
+  .borrar {
+    @apply bg-black rounded-full px-2 py-1 text-gray-200 font-bold cursor-pointer;
+  }
+
+  /* Header Content CSS */
+  .header-content {
+    @apply flex justify-between items-center flex-1 px-20;
+  }
+
+  .header-img {
+    @apply flex-initial text-center;
+  }
+
+  .header-txt {
+    @apply flex-initial text-center;
+  }
+
+  .header-txt h1 {
+    @apply text-6xl font-semibold text-black uppercase my-4;
+  }
+
+  .header-txt p {
+    @apply text-lg uppercase my-5;
+  }
+
+  .btn-1 {
+    @apply inline-block py-3 px-6 bg-black text-white rounded-md;
+  }
+
+  /* Ofert CSS */
+  .ofert {
+    @apply py-5 flex justify-between;
+  }
+
+  .ofert-1 {
+    @apply flex items-center flex-auto bg-gray-200 p-10;
+  }
+
+  .ofert-img {
+    @apply flex-initial mr-5;
+  }
+}
