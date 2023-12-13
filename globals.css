@@ -132,157 +132,113 @@
   .ofert-img {
     @apply flex-initial mr-5;
   }
+
+  .ofert-img img {
+    @apply w-64; /* Cambia el ancho según sea necesario */
+  }
+
+  /* Ofert-Txt */
+  .ofert-txt {
+    @apply flex-initial text-center;
+  }
+
+  .ofert-txt h3 {
+    @apply text-black font-semibold text-2xl font-serif uppercase my-4;
+  }
+
+  .btn-2 {
+    @apply inline-block py-2 px-4 bg-black text-white rounded-md text-base;
+  }
+
+  /* Products */
+  .products {
+    @apply py-12 text-center;
+  }
+
+  .products h2 {
+    @apply text-5xl text-black font-serif uppercase mb-12;
+  }
+
+  /* Product-Content */
+  .product-content {
+    @apply grid grid-cols-3 gap-12;
+  }
+
+  /* Product */
+  .product {
+    @apply text-center p-8 shadow-md;
+  }
+
+  .product img {
+    @apply w-64 h-96 mb-5;
+  }
+
+  .product h3 {
+    @apply text-xl text-black font-semibold font-serif uppercase mb-4;
+  }
+
+  .product p,
+  .precio {
+    @apply text-base text-black mb-4;
+  }
+
+  .precio {
+    @apply font-semibold;
+  }
+
+  /* Icons */
+  .icons {
+    @apply py-12 flex justify-between;
+  }
+
+  .icon-1 {
+    @apply flex-initial flex items-center justify-between p-12 bg-gray-200;
+  }
+
+  .icon-txt h3 {
+    @apply text-xl text-black font-semibold font-serif uppercase;
+  }
+
+  .icon-txt p {
+    @apply text-base text-black;
+  }
+
+  /* Blog */
+  .blog {
+    @apply flex justify-between pb-24;
+  }
+
+  .blog-1 {
+    @apply flex-initial w-[calc(33.3% - 30px)];
+  }
+
+  .blog-1 img {
+    @apply mb-5;
+  }
+
+  .blog-1 h3 {
+    @apply text-xl text-black font-semibold font-serif uppercase mb-4;
+  }
+
+  .blog-1 p {
+    @apply text-base text-black;
+  }
+
+  /* Footer */
+  .footer {
+    @apply py-12 bg-black;
+  }
+
+  .footer-content {
+    @apply flex justify-between;
+  }
+
+  .link h3 {
+    @apply text-xl text-white font-semibold font-serif uppercase mb-8;
+  }
+
+  .link a {
+    @apply text-base text-gray-400 block mb-4;
+  }
 }
 
-.ofert-img img {
-  width: 250px;
-}
-
-.ofert-txt {
-  flex-basis: 50%;
-  text-align: center;
-}
-
-.ofert-txt h3 {
-  color: black;
-  font-family: 'Oswald', sans-serif;
-  font-size:  25px;
-  text-transform: uppercase;
-  margin-bottom: 15px;
-}
-
-.btn-2 {
-  display: inline-block;
-  padding: 7px 10px;
-  background-color: #111;
-  color: #fff;
-  border-radius: 5px;
-  font-size: 15px;
-}
-
-.products {
-  padding: 50px 0;
-  text-align: center;
-}
-
-.products h2 {
-  color: #111;
-  font-family: 'Oswald', sans-serif;
-  font-size: 50px;
-  text-transform: uppercase;
-  margin-bottom: 50px;
-}
-
-.product-content {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 50px;
-}
-
-.product {
-  text-align: center;
-  padding: 30px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.product img {
-  width: 250px;
-  height: 360px;
-  margin-bottom: 20px;
-}
-
-.product h3 {
-  font-size: 20px;
-  color: #111;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-  margin-bottom: 15px;
-}
-
-.product p, .precio {
-  font-size: 16px;
-  color: #111;
-  margin-bottom: 15px;
-}
-
-.precio {
-  font-weight: 800;
-}
-
-.icons {
-  padding: 50px 0 100px 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.icon-1 {
-  flex-basis: calc(33.3% - 30px);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 25px;
-  background-color: #f5f5f5;
-}
-
-.icon-txt h3 {
-  font-size: 20px;
-  color: #111;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-}
-.icon-txt p {
-  font-size: 16px;
-  color: #111;
-}
-
-.blog {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 100px;
-}
-
-.blog-1 {
-  flex-basis: calc(33.3% - 30px);
-}
-
-.blog-1 img {
-  margin-bottom: 20px;
-}
-
-.blog-1 h3 {
-  font-size: 20px;
-  color: #111;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-  margin-bottom: 15px;
-}
-
-.blog-1 p{
-  font-size: 16px;
-  color: #111;
-}
-
-.footer {
-  padding: 50px 0;
-  background-color: #111;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-}
-
-.link h3 {
-  font-size: 18px;
-  color: #fff;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-}
-
-.link a{
-  font-size: 16px;
-  color: #dcdcdc;
-  display: block;
-  margin-bottom: 10px;
-}
