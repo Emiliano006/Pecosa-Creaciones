@@ -133,3 +133,78 @@
     @apply flex-initial mr-5;
   }
 }
+
+.ofert-img img {
+  width: 250px;
+}
+
+.ofert-txt {
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.ofert-txt h3 {
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size:  25px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.btn-2 {
+  display: inline-block;
+  padding: 7px 10px;
+  background-color: #111;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.products {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.products h2 {
+  color: #111;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.product-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.product {
+  text-align: center;
+  padding: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 250px;
+  height: 360px;
+  margin-bottom: 20px;
+}
+
+.product h3 {
+  font-size: 20px;
+  color: #111;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.product p, .precio {
+  font-size: 16px;
+  color: #111;
+  margin-bottom: 15px;
+}
+
+.precio {
+  font-weight: 800;
+}
