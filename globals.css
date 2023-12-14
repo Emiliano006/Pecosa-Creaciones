@@ -240,5 +240,110 @@
   .link a {
     @apply text-base text-gray-400 block mb-4;
   }
+
+  @media (max-width: 991px) {
+    /* Menu */
+    .menu {
+      @apply p-5;
+    }
+
+    .menu label {
+      @apply block;
+    }
+
+    .menu .navbar {
+      @apply absolute top-full left-0 right-0 bg-gray-900 hidden;
+    }
+
+    .menu .navbar ul li {
+      @apply w-full;
+    }
+
+    .menu .navbar ul li a {
+      @apply text-white;
+    }
+
+    #menu:checked ~ .navbar {
+      @apply block;
+    }
+
+    .logo {
+      @apply hidden;
+    }
+
+    /* Header */
+    .header {
+      @apply min-h-0;
+    }
+
+    .header-content {
+      @apply py-12 flex-col;
+    }
+
+    .header-img {
+      @apply hidden;
+    }
+
+    .header-txt {
+      @apply flex-1 text-center;
+    }
+
+    .header-txt h1 {
+      @apply text-4xl;
+    }
+
+    /* Ofert */
+    .ofert {
+      @apply py-8 flex-col;
+    }
+
+    .ofert-1 {
+      @apply mb-8;
+    }
+
+    /* Products */
+    .products {
+      @apply px-4 pb-8;
+    }
+
+    .products h2 {
+      @apply mb-8;
+    }
+
+    .product-content {
+      @apply grid-cols-1 gap-8;
+    }
+
+    .product img {
+      @apply w-48 h-64;
+    }
+
+    /* Icons */
+    .icons {
+      @apply p-8 flex-col;
+    }
+
+    .icon-1 {
+      @apply mb-8;
+    }
+
+    /* Blog */
+    .blog {
+      @apply px-4 pb-8 flex-col;
+    }
+
+    .blog-1 {
+      @apply mb-8;
+    }
+
+    /* Footer */
+    .footer {
+      @apply p-8;
+    }
+
+    .footer-content {
+      @apply flex-col text-center;
+    }
+  }
 }
 
