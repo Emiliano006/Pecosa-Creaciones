@@ -167,11 +167,11 @@ justify-content: space-between;
 
 .ofert-img {
   flex-basis: 50%;
-  margin-right: 15px;
+  margin-right: -30px;
 }
 
 .ofert-img img {
-  width: 250px;
+  width: 200px;
 }
 
 .ofert-txt {
