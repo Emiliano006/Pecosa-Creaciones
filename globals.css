@@ -299,7 +299,10 @@ justify-content: space-between;
 }
 
 .footer {
-  padding: 50px 0;
+  margin-bottom: 4rem;
+  padding: 0.5rem;
+  text-align: center;
+  color: #fff;
   background-color: #111;
 }
 
