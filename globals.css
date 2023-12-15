@@ -307,7 +307,7 @@ justify-content: space-between;
 }
 
 .footer-content {
-  display: flex;
+  display: block;
   justify-content: space-between;
 }
 
