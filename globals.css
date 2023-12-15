@@ -299,16 +299,12 @@ justify-content: space-between;
 }
 
 .footer {
-  margin-bottom: 4rem;
   padding: 0.5rem;
   text-align: center;
   color: #fff;
   background-color: #111;
   width: 100%;
 }
-
-
-
 
 .link h3 {
   font-size: 18px;
