@@ -565,3 +565,6 @@ justify-content: space-between;
     grid-template-columns: repeat(4, 24%);
   }
 }
+.section {
+  padding: 2rem 1rem;
+}
