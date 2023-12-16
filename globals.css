@@ -80,7 +80,7 @@ img {
   display: none;
 }
 
-.submen:hover #carrito {
+.submenu:hover #carrito {
   display: block;
   position: absolute;
   right: 0;
