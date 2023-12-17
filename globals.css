@@ -491,7 +491,7 @@ justify-content: space-between;
   margin-top: 2rem;
   width: 4rem;
   height: 4rem;
-  fill: var(--first-color);
+  fill: black;
 }
 
 .modal#gracias:target {
@@ -531,7 +531,7 @@ justify-content: space-between;
 .contact-card > svg {
   width: 2rem;
   height: 2rem;
-  fill: var(--first-color);
+  fill: black;
 }
 
 .contact-card > small {
