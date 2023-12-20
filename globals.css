@@ -566,12 +566,7 @@ justify-content: space-between;
   align-items: center;
   justify-content: center;
 }
-.section-title-2 h3{
-  display:flex;
-  align-items: center;
-  justify-content: center;
-}
-#Contacto {
+.centered{
   display:flex;
   align-items: center;
   justify-content: center;
