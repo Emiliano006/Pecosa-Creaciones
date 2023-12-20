@@ -562,6 +562,7 @@ justify-content: space-between;
   }
 }
 .section-title-2 {
+  display:flex;
   align-items: center;
   justify-content: center;
 }
