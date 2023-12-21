@@ -104,7 +104,7 @@
                     <p>Tejido al crochet</p>
                     <!-- <p class="precio">$20</p> -->
                     <!-- <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a> -->
-                    <a class="btn-2" href="https://wa.me/+543426137512/?text=Hola,%20vi%20tu%20p%C3%A1gina%20Pecosa%20Creaciones%20y%20quer%C3%ADa%20consultarte%20sobre..."
+                    <a class="button" href="https://wa.me/+543426137512/?text=Hola,%20vi%20tu%20p%C3%A1gina%20Pecosa%20Creaciones%20y%20quer%C3%ADa%20consultarte%20sobre..."
                     target="_blank"
                     rel="noopener">Consultar</a>
                 </div>
@@ -117,7 +117,7 @@
                     <p>Tejido al crochet</p>
                     <!-- <p class="precio">$200</p> -->
                     <!-- <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a> -->
-                    <a class="btn-2" href="https://wa.me/+543426137512/?text=Hola,%20vi%20tu%20p%C3%A1gina%20Pecosa%20Creaciones%20y%20quer%C3%ADa%20consultarte%20sobre..."
+                    <a class="button" href="https://wa.me/+543426137512/?text=Hola,%20vi%20tu%20p%C3%A1gina%20Pecosa%20Creaciones%20y%20quer%C3%ADa%20consultarte%20sobre..."
                     target="_blank"
                     rel="noopener">Consultar</a>
                 </div>
@@ -130,7 +130,7 @@
                     <p>Tejido al crochet</p>
                     <!-- <p class="precio">$200</p> -->
                     <!-- <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a> -->
-                    <a class="btn-2" href="https://wa.me/+543426137512/?text=Hola,%20vi%20tu%20p%C3%A1gina%20Pecosa%20Creaciones%20y%20quer%C3%ADa%20consultarte%20sobre..."
+                    <a class="button" href="https://wa.me/+543426137512/?text=Hola,%20vi%20tu%20p%C3%A1gina%20Pecosa%20Creaciones%20y%20quer%C3%ADa%20consultarte%20sobre..."
                     target="_blank"
                     rel="noopener">Consultar</a>
                 </div>
@@ -143,7 +143,7 @@
                     <p>Tejido al crochet</p>
                     <!-- <p class="precio">$200</p> -->
                     <!-- <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a> -->
-                    <a class="btn-2" href="https://wa.me/+543426137512/?text=Hola,%20vi%20tu%20p%C3%A1gina%20Pecosa%20Creaciones%20y%20quer%C3%ADa%20consultarte%20sobre..."
+                    <a class="button" href="https://wa.me/+543426137512/?text=Hola,%20vi%20tu%20p%C3%A1gina%20Pecosa%20Creaciones%20y%20quer%C3%ADa%20consultarte%20sobre..."
                     target="_blank"
                     rel="noopener">Consultar</a>
                 </div>
@@ -169,7 +169,7 @@
                     <p>Calidad premiun</p>
                     <!-- <p class="precio">$200</p> -->
                     <!-- <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a> -->
-                    <a class="btn-2" href="https://wa.me/+543426137512/?text=Hola,%20vi%20tu%20p%C3%A1gina%20Pecosa%20Creaciones%20y%20quer%C3%ADa%20consultarte%20sobre..."
+                    <a class="button" href="https://wa.me/+543426137512/?text=Hola,%20vi%20tu%20p%C3%A1gina%20Pecosa%20Creaciones%20y%20quer%C3%ADa%20consultarte%20sobre..."
                     target="_blank"
                     rel="noopener">Consultar</a>
                 </div>
@@ -332,13 +332,17 @@
                 const mensaje = 'Hola, vi tu pagina de Pecosa Creaciones y te quería concultar sobre...';
             
                 // Función para abrir el enlace con el mensaje al hacer clic en un botón
-                function abrirWhatsApp() {
-                    const mensajeCodificado = encodeURIComponent(mensaje);
-                    window.open(`https://wa.me/${numeroTelefono}?text=${mensajeCodificado}`, '_blank');
+                function abrirWhatsApp(event) {
+                event.preventDefault(); // Evitar que el enlace se siga al hacer clic
+                const mensajeCodificado = encodeURIComponent(mensaje);
+                window.open(`https://wa.me/${numeroTelefono}?text=${mensajeCodificado}`, '_blank');
                 }
-            
-                // Asociar la función a los botones por su identificador
-                document.getElementById('button').addEventListener('click', abrirWhatsApp);
+
+                // Seleccionar todos los elementos <a> con la clase 'button' y asociar la función
+                const buttons = document.querySelectorAll('a.button');
+                buttons.forEach(function(button) {
+                button.addEventListener('click', abrirWhatsApp);
+                });
             </script>
 
               <script src="scripts.js"></script>
