@@ -580,11 +580,16 @@ justify-content: space-between;
   align-items: center;
   justify-content: center;
 }
-button {
-  display:flex;
-  align-items: center;
-  justify-content: center;
+.button-container {
+  text-align: center;
+  margin-top: 20px; /* Ajusta el margen superior según sea necesario */
 }
+
+.button {
+  display: inline-block;
+  /* Estilos adicionales si los necesitas */
+}
+
 .button a {
   text-decoration: none; /* Quitar subrayado del enlace */
   color: inherit; /* Usar el color heredado del botón */
