@@ -585,3 +585,7 @@ button {
   align-items: center;
   justify-content: center;
 }
+.button a {
+  text-decoration: none; /* Quitar subrayado del enlace */
+  color: inherit; /* Usar el color heredado del botón */
+}
