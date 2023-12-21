@@ -325,6 +325,21 @@
                   ></small
                 >
               </footer>
+              <script>
+                // Reemplaza '123456789' con el número de teléfono
+                const numeroTelefono = '+543426137512';
+                // Reemplaza 'Hola, estoy interesado en tu producto' con el mensaje deseado (codificado en la URL)
+                const mensaje = 'Hola, vi tu pagina de Pecosa Creaciones y te quería concultar sobre...';
+            
+                // Función para abrir el enlace con el mensaje al hacer clic en un botón
+                function abrirWhatsApp() {
+                    const mensajeCodificado = encodeURIComponent(mensaje);
+                    window.open(`https://wa.me/${numeroTelefono}?text=${mensajeCodificado}`, '_blank');
+                }
+            
+                // Asociar la función a los botones por su identificador
+                document.getElementById('button').addEventListener('click', abrirWhatsApp);
+            </script>
 
               <script src="scripts.js"></script>
 </body>
