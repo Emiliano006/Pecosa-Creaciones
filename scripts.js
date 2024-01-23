@@ -65,20 +65,3 @@ function vaciarCarrito() {
     }
     return false;
 }
-window.onscroll = function() {
-    // Obtener la posición de desplazamiento vertical
-    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-  
-    // Obtener la barra de navegación y el carrito por su ID
-    var navbar = document.getElementById('navbar');
-    var cart = document.getElementById('cart');
-  
-    // Ajustar la posición de la barra de navegación y el carrito según el desplazamiento
-    if (scrollTop > 0) {
-      navbar.style.backgroundColor = '#555'; // Puedes ajustar el color de fondo según tus preferencias
-      cart.style.backgroundColor = '#555'; // Puedes ajustar el color de fondo según tus preferencias
-    } else {
-      navbar.style.backgroundColor = '#333'; // Puedes ajustar el color de fondo según tus preferencias
-      cart.style.backgroundColor = '#333'; // Puedes ajustar el color de fondo según tus preferencias
-    }
-  };
