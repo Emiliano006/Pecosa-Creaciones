@@ -595,7 +595,6 @@ justify-content: space-between;
   color: inherit; /* Usar el color heredado del botón */
 }
 .navbar .cart {
-  position:fixed;
   width: 100%;
   background-color: #333;
   color: #fff;
@@ -604,4 +603,5 @@ justify-content: space-between;
   top: 0;
   left: 0;
   z-index: 1000;
+  display: flex;
 }
