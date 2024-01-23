@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
 
+
 * {
   margin: 0;
   padding: 0;
@@ -327,7 +328,7 @@ justify-content: space-between;
   margin-bottom: 10px;
 }
 
-@media (max-width:991px) {
+@media (max-width:991) {
 
   .menu {
     padding: 20px;
