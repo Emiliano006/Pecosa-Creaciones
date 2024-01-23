@@ -42,7 +42,7 @@ function insertarCarrito(elemento) {
         ${elemento.precio}
     </td>
     <td>
-        <a href="#" class="borrar" data-id="${elemento.id}">X </a>
+        <a href="#" class="borrar" data-id="${elemento.id}"><img src="delete.svg" alt="Eliminar" width="20"></a>
     </td>
     `;
     lista.appendChild(row);
