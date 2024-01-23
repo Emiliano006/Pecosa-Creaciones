@@ -594,7 +594,7 @@ justify-content: space-between;
   text-decoration: none; /* Quitar subrayado del enlace */
   color: inherit; /* Usar el color heredado del botón */
 }
-.navbar .cart {
+.navbar .submenu {
   width: 100%;
   background-color: #333;
   color: #fff;
