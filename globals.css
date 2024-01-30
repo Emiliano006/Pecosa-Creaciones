@@ -51,7 +51,7 @@ img {
 }
 
 .menu .navbar ul {
-  right: 0;
+  margin-left: auto;
 }
 
 .menu .navbar ul li {
