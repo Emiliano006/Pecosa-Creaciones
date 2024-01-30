@@ -50,7 +50,7 @@ img {
 
 .menu .navbar ul li {
   position: relative;
-  float: left;
+  float: right;
 }
 
 .menu .navbar ul li a {
