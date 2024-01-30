@@ -617,3 +617,7 @@ justify-content: space-between;
   z-index: 1000; /* Ajusta según sea necesario para que la barra esté por encima de otros elementos */
   background-color: #f5f5f5; /* Puedes ajustar el color de fondo según tus necesidades */
 }
+.menu,
+.fixed-navbar {
+    width: 100%;
+}
