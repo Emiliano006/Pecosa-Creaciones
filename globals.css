@@ -53,7 +53,7 @@ img {
 .menu .navbar ul li {
   position: relative;
   float: left;
-  /* margin-left: 30px; */
+  margin-left: 30px;
 }
 
 .menu .navbar ul li a {
