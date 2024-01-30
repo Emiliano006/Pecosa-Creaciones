@@ -46,6 +46,7 @@ img {
   height: 32px;
   z-index: 1100;
   margin-top: 10px;
+  left: 0;
 }
 
 .menu .navbar ul li {
