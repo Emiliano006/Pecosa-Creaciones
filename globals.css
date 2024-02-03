@@ -302,6 +302,10 @@ justify-content: space-between;
   margin-bottom: 20px;
 }
 
+.blog-2 img {
+  margin-bottom: 40px;
+}
+
 .blog-1 h3 {
   font-size: 20px;
   color: #111;
