@@ -300,7 +300,7 @@ justify-content: space-between;
 
 .blog-1 img {
   width: 100%; /* Ajusta según sea necesario */
-  height: 250px; /* Ajusta según sea necesario */
+  height: 260px; /* Ajusta según sea necesario */
   object-fit: cover; /* Ajusta según sea necesario */
   display: block;
   margin: 0 auto;
@@ -313,15 +313,6 @@ justify-content: space-between;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   margin-bottom: 15px;
-}
-
-.blog-1 h6 {
-  font-size: 20px;
-  color: #111;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-  margin-bottom: 15px;
-  margin-top: 62px;
 }
 
 .blog-1 p{
