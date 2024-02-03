@@ -637,8 +637,13 @@ justify-content: space-between;
   color: #000000; /* Cambia el color según tus preferencias */
   text-decoration: none; /* Quitar subrayado del enlace */
 }
+
 article {
   display: flex;
   align-items: center;
   justify-content: space-around; /* O ajusta según tus necesidades */
+}
+
+.social-icon {
+  vertical-align: middle;
 }
