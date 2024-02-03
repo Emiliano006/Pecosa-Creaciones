@@ -300,7 +300,7 @@ justify-content: space-between;
 
 .blog-1 img {
   width: 100%; /* Ajusta según sea necesario */
-  height: 200px; /* Ajusta según sea necesario */
+  height: 250px; /* Ajusta según sea necesario */
   object-fit: cover; /* Ajusta según sea necesario */
   display: block;
   margin: 0 auto;
