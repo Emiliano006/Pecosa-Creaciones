@@ -633,3 +633,6 @@ justify-content: space-between;
 .fixed-navbar {
     width: 100%;
 }
+a {
+  text-decoration: none;
+}
