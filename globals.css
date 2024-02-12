@@ -622,7 +622,7 @@ justify-content: space-between;
   display: flex;
 } */
 .fixed-navbar {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   width: 100%;
   z-index: 1000; /* Ajusta según sea necesario para que la barra esté por encima de otros elementos */
