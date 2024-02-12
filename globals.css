@@ -59,8 +59,10 @@ img {
 
 .menu .navbar ul {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .menu .navbar ul li {
