@@ -42,7 +42,7 @@ img {
   justify-content: space-between;
 }
 
-.logo {
+.navbar .logo {
   width:20px;
   height: 20px;
   z-index: 1100;
