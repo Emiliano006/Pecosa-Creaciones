@@ -653,7 +653,7 @@ article {
   }
 
   .menu {
-    position: static;
+    /* position: static; */
     width: auto;
     flex-direction: row;
     opacity: 1;
