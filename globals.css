@@ -47,11 +47,13 @@ img {
   height: 5px; 
   z-index: 1100;
   margin-top: 10px;
-  left: 0;
+  left: 10;
+  margin-bottom: 0;
 }
 
 .logo img{
-  max-width: 3%;
+  max-width: 2%;
+  margin-bottom: 0;
 }
 
 .menu .navbar ul {
