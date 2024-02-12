@@ -50,6 +50,9 @@ img {
   left: 0;
 }
 
+.logo img{
+  max-width: 50%;
+}
 
 .menu .navbar ul {
   margin-left: 700px;
