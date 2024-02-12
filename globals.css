@@ -33,10 +33,7 @@ img {
 }
 
 .menu {
-  margin-left: 20px;
-  top: 0;
-  left: 0;
-  right: 0;
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -57,34 +54,21 @@ img {
   margin-bottom: 0;
 }
 
-.menu .navbar {
-  overflow-x: auto;
-}
-
 .menu .navbar ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0;
-  padding: 0;
+  margin-left: 700px;
 }
 
 .menu .navbar ul li {
-  max-width: 150px;
-  margin: 0;
-  padding: 0;
+  position: relative;
+  float: left;
+  
 }
 
 .menu .navbar ul li a {
   font-size: 18px;
-  padding: 10px;
-  margin: 0;
+  padding: 20px;
   color: #000;
   display: block;
-}
-
-.menu .navbar ul li:last-child {
-  margin-right: 0; /* Elimina el margen del último elemento */
 }
 
 #menu {
