@@ -43,11 +43,17 @@ img {
 }
 
 .logo {
-  margin-right: auto;
+  width: 10px; 
+  height: 5px; 
+  z-index: 1100;
+  margin-top: 10px;
+  margin-left: -100px;
+  margin-bottom: 0;
 }
 
 .logo img{
-  height:  40px;
+  max-width: 5%;
+  margin-bottom: 0;
 }
 
 .menu .navbar ul {
