@@ -47,12 +47,12 @@ img {
   height: 5px; 
   z-index: 1100;
   margin-top: 10px;
-  left: 10;
+  left: 0;
   margin-bottom: 0;
 }
 
 .logo img{
-  max-width: 2%;
+  max-width: 5%;
   margin-bottom: 0;
 }
 
