@@ -60,7 +60,7 @@ img {
 .menu .navbar ul {
   display: flex;
   align-items: center;
-  
+  justify-content: space-between;
 }
 
 .menu .navbar ul li {
