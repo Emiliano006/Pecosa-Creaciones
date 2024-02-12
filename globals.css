@@ -610,7 +610,7 @@ justify-content: space-between;
   text-decoration: none; /* Quitar subrayado del enlace */
   color: inherit; /* Usar el color heredado del botón */
 }
-/* .navbar .cart {
+.navbar .cart {
   width: 100%;
   background-color: #333;
   color: #fff;
@@ -620,9 +620,9 @@ justify-content: space-between;
   left: 0;
   z-index: 1000;
   display: flex;
-} */
+}
 .fixed-navbar {
-  /* position: fixed; */
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000; /* Ajusta según sea necesario para que la barra esté por encima de otros elementos */
@@ -672,63 +672,4 @@ article {
     background-color: transparent;
   }
 }
-@media screen and (min-width: 1024px) {
-  .full-lg-screen {
-    width: 100%;
-    min-height: 100vh;
-  }
 
-  .text-lg-center {
-    text-align: right;
-  }
-
-  .text-lg-left {
-    text-align: left;
-  }
-
-  .text-lg-right {
-    text-align: right;
-  }
-}
-@media screen and (min-width: 768px) {
-  .contact-cards {
-    display: grid;
-    grid-template-columns: repeat(2, 48%);
-    justify-content: space-between;
-  }
-  .services > .container {
-    display: grid;
-    grid-template-columns: repeat(2, 45%);
-    justify-content: space-between;
-    align-content: center;
-  }
-  .services .section-title {
-    grid-column: span 2;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .about {
-    display: grid;
-    grid-template-columns: repeat(3, 30%);
-    justify-content: space-between;
-    align-content: center;
-  }
-  .contact-cards {
-    grid-template-columns: repeat(4, 24%);
-  }
-  .footer {
-    margin-bottom: 0;
-  }
-  .header {
-    position: sticky;
-    top: 0;
-    padding: 0.5rem;
-    height: calc(var(--header-height)- 0.5rem);
-  }
-  .services > .container {
-    grid-template-columns: repeat(3, 30%);
-  }
-  .services .section-title {
-    grid-column: span 3;
-  }
-}
