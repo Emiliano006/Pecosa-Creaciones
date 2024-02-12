@@ -54,17 +54,23 @@ img {
   margin-bottom: 0;
 }
 
+.menu .navbar {
+  display: flex;
+  justify-content: center;
+}
+
 .menu .navbar ul {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: center; 
+  margin: 0;
   padding: 0;
 }
 
 .menu .navbar ul li {
   position: relative;
-  float: left;
-  
+  list-style: none;
+  margin: 0 10px; 
 }
 
 .menu .navbar ul li a {
